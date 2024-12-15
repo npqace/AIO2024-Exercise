@@ -37,7 +37,7 @@ def load_model(model_path, num_classes=10):
     lenet_model.load_state_dict(torch.load(model_path, weights_only=True, map_location=torch.device('cpu')))
     lenet_model.eval()
     return lenet_model
-model = load_model('D:/AIO2024/03-Exercises/Module6/m6-w1/01-mnist/lenet_model.pt')
+model = load_model('lenet_model.pt')
 
 def inference(image, model):
     w, h = image.size
