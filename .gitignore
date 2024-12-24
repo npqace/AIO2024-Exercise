@@ -165,5 +165,8 @@ cython_debug/
 *.pdf
 *.docx
 
-# vscode foler
+# vscode folder
 .vscode/
+
+# materials folder
+materials/
